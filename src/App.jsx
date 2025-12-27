@@ -3,7 +3,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 
 import Dashboard from "./pages/Dashboard.jsx";
 import Account from "./pages/Account.jsx";
-import Bookoings from "./pages/Bookings.jsx";
+import Bookings from "./pages/Bookings.jsx";
 import Cabins from "./pages/Cabins.jsx";
 import Login from "./pages/Login.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
@@ -22,7 +22,7 @@ function App() {
             <Route index element={<Navigate replace to="dashboard" />} />
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="account" element={<Account />} />
-            <Route path="booking" element={<Bookoings />} />
+            <Route path="bookings" element={<Bookings />} />
             <Route path="cabins" element={<Cabins />} />
             <Route path="settings" element={<Settings />} />
             <Route path="users" element={<Users />} />
